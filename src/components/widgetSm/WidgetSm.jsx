@@ -10,7 +10,7 @@ const WidgetSm = () => {
             {/*1st list starts here */}
             <li className='widgetSmListItem'>
                 <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" 
-                alt="profile image" className="widgetSmImg"/>
+                alt="profile" className="widgetSmImg"/>
                 <div className='widgetSmUser'>
                     <span className='widgetSmUsername'>Ojochoko Mary Ochuma</span>
                     <span className='widgetSmUserTitle'>Product Designer</span>
@@ -25,7 +25,7 @@ const WidgetSm = () => {
             {/*2nd list starts here */}
             <li className='widgetSmListItem'>
                 <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" 
-                alt="profilePicture" className="widgetSmImg"/>
+                alt="profile" className="widgetSmImg"/>
                 <div className='widgetSmUser'>
                     <span className='widgetSmUsername'>Benjamin Ojotule Ajodo</span>
                     <span className='widgetSmUserTitle'>Software Engineer</span>
@@ -40,7 +40,7 @@ const WidgetSm = () => {
             {/*3rd list starts here */}
             <li className='widgetSmListItem'>
                 <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" 
-                alt="profile image" className="widgetSmImg"/>
+                alt="profile" className="widgetSmImg"/>
                 <div className='widgetSmUser'>
                     <span className='widgetSmUsername'>Anna Omede</span>
                     <span className='widgetSmUserTitle'>Software Engineer</span>
@@ -55,7 +55,7 @@ const WidgetSm = () => {
             {/*4th list starts here */}
             <li className='widgetSmListItem'>
                 <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" 
-                alt="profile image" className="widgetSmImg"/>
+                alt="profile" className="widgetSmImg"/>
                 <div className='widgetSmUser'>
                     <span className='widgetSmUsername'>Anna Omede</span>
                     <span className='widgetSmUserTitle'>Software Engineer</span>
@@ -70,7 +70,7 @@ const WidgetSm = () => {
             {/*5th list starts here */}
             <li className='widgetSmListItem'>
                 <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" 
-                alt="profile image" className="widgetSmImg"/>
+                alt="profile" className="widgetSmImg"/>
                 <div className='widgetSmUser'>
                     <span className='widgetSmUsername'>Anna Omede</span>
                     <span className='widgetSmUserTitle'>Software Engineer</span>
@@ -85,7 +85,7 @@ const WidgetSm = () => {
             {/*6th list starts here */}
             <li className='widgetSmListItem'>
                 <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" 
-                alt="profile image" className="widgetSmImg"/>
+                alt="profile" className="widgetSmImg"/>
                 <div className='widgetSmUser'>
                     <span className='widgetSmUsername'>Anna Omede</span>
                     <span className='widgetSmUserTitle'>Software Engineer</span>
