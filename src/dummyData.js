@@ -4,10 +4,6 @@ export const userData = [
       "Active User": 4000,
     },
     {
-      name: 'Jan',
-      "Active User": 5000,
-    },
-    {
       name: 'Feb',
       "Active User": 3000,
     },
@@ -143,6 +139,115 @@ export const userRows = [
       email: "Micheal@gmail.com",
       status: "active",
       transaction: "$120.00"
+  },
+
+];
+
+export const productData = [
+    {
+      name: 'Jan',
+      "Sales": 4000,
+    },
+    {
+      name: 'Feb',
+      "Sales": 3000,
+    },
+    {
+      name: 'Mar',
+      "Sales": 5000,
+    },
+];
+ 
+export const productRows = [
+  { 
+      id: 1, 
+      name: 'Apple Airpods', 
+      img: 
+          "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airpods-max-select-skyblue-202011_FMT_WHH?wid=470&hei=350&fmt=jpeg&qlt=95&.v=1604686090000",
+      stock: 123,
+      status: "active",
+      price: "$120.00"
+  },
+  { 
+      id: 2, 
+      name: 'Apple Airpods', 
+      img: 
+          "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airpods-max-select-skyblue-202011_FMT_WHH?wid=470&hei=350&fmt=jpeg&qlt=95&.v=1604686090000",
+      stock: 123,
+      status: "active",
+      price: "$120.00"
+  },
+  { 
+      id: 3, 
+      name: 'Apple Airpods', 
+      img: 
+          "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airpods-max-select-skyblue-202011_FMT_WHH?wid=470&hei=350&fmt=jpeg&qlt=95&.v=1604686090000",
+      stock: 123,
+      status: "active",
+      price: "$120.00"
+  },
+  { 
+      id: 4, 
+      name: 'Apple Airpods', 
+      img: 
+          "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airpods-max-select-skyblue-202011_FMT_WHH?wid=470&hei=350&fmt=jpeg&qlt=95&.v=1604686090000",
+      stock: 123,
+      status: "active",
+      price: "$120.00"
+  },
+  { 
+      id: 5, 
+      name: 'Apple Airpods', 
+      img: 
+          "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airpods-max-select-skyblue-202011_FMT_WHH?wid=470&hei=350&fmt=jpeg&qlt=95&.v=1604686090000",
+      stock: 123,
+      status: "active",
+      price: "$120.00"
+  },
+  { 
+      id: 6, 
+      name: 'Apple Airpods', 
+      img: 
+          "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airpods-max-select-skyblue-202011_FMT_WHH?wid=470&hei=350&fmt=jpeg&qlt=95&.v=1604686090000",
+      stock: 123,
+      status: "active",
+      price: "$120.00"
+  },
+  { 
+      id: 7, 
+      name: 'Apple Airpods', 
+      img: 
+          "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airpods-max-select-skyblue-202011_FMT_WHH?wid=470&hei=350&fmt=jpeg&qlt=95&.v=1604686090000",
+      stock: 123,
+      status: "active",
+      price: "$120.00"
+  },
+  { 
+      id: 8, 
+      name: 'Apple Airpods', 
+      img: 
+          "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airpods-max-select-skyblue-202011_FMT_WHH?wid=470&hei=350&fmt=jpeg&qlt=95&.v=1604686090000",
+      stock: 123,
+      status: "active",
+      price: "$120.00"
+  },
+  { 
+      id: 9, 
+      name: 'Apple Airpods', 
+      img: 
+          "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airpods-max-select-skyblue-202011_FMT_WHH?wid=470&hei=350&fmt=jpeg&qlt=95&.v=1604686090000",
+      stock: 123,
+      status: "active",
+      price: "$120.00"
+  },
+  { 
+      id: 10, 
+      name: 'Apple Airpods', 
+      img: 
+          "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airpods-max-select-skyblue-202011_FMT_WHH?wid=470&hei=350&fmt=jpeg&qlt=95&.v=1604686090000",
+      stock: 123,
+      status: "active",
+      price: "$120.00"
   },
 
 ];
