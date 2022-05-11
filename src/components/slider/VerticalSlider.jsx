@@ -13,12 +13,8 @@ export default function VerticalSlider({ onDataSet }) {
   }
   const [data, setData] = useState(5);
   const handleChange = (event) => {
-    setData(event.target.value);
-    onDataSet(data)
-    console.log(onDataSet)   
-
+    onDataSet(event.target.value);   
   }; 
-
   return (
     <Box sx={{ height: 210 }}>
       <Slider

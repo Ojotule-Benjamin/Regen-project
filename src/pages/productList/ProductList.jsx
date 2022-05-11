@@ -45,7 +45,9 @@ const ProductList = () => {
         rows={data} 
         disableSelectionOnClick 
         columns={columns} 
+        rowsPerPageOptions= {8} 
         pageSize={8} 
+
         checkboxSelection/>
     </div>
   )
