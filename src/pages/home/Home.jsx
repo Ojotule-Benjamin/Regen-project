@@ -12,12 +12,9 @@ import { red } from '@mui/material/colors'
 
 
 const Home = () => {
-  const [sliderValue, setSliderValue] = useState(10);
-  function getSliderData(value){
-    setSliderValue(value);
-  };
-
+  const [sliderValue, setSliderValue] = useState(1);
   //transforming the data
+
   let newMonthValue = {}
   const userDataTransform = userData.map(newDataFunc)
   function newDataFunc(item){
@@ -46,13 +43,4 @@ const Home = () => {
 }
 export default Home
 
-
-//THE CODE BELOW DISPLAYS ERROR! FIX IT
-/*export default function Home() {
-  return (
-    <div className='home'>
-        home
-    </div>
-  )
-}*/
 

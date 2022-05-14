@@ -1,9 +1,8 @@
 
-import React, { useState } from 'react'
+import React from 'react'
 import Box from '@mui/material/Box';
 import Slider from '@mui/material/Slider';
 import './verticalSlider.css';
-
 
 export default function VerticalSlider({ onDataSet }) {
   function preventHorizontalKeyboardNavigation(event) {
@@ -11,7 +10,6 @@ export default function VerticalSlider({ onDataSet }) {
       event.preventDefault();
     }
   }
-  const [data, setData] = useState(5);
   const handleChange = (event) => {
     onDataSet(event.target.value);   
   }; 
