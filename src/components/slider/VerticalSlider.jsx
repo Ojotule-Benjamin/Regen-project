@@ -10,15 +10,17 @@ export default function VerticalSlider({ onDataSet }) {
       event.preventDefault();
     }
   }
+  //to handle the change on slider component
   const handleChange = (event) => {
-    onDataSet(event.target.value);   
+    onDataSet(event.target.value);
+     
   }; 
   return (
     <Box sx={{ height: 210 }}>
       <Slider
         sx={{
           '& input[type="range"]': {
-            WebkitAppearance: 'slider-vertical',
+            //WebkitAppearance: 'slider-vertical',
           },
         }}
         onChange = {handleChange}

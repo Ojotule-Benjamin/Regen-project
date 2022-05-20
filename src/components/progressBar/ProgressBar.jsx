@@ -3,16 +3,13 @@ import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 
 
-const ProgressBar = (props) => {
-    const value = props.progressBarData;
-    
-    
+const ProgressBar = ({sliderValueDis}) => {
   return (
     <CircularProgressbar 
-    value={value} 
     maxValue={100}
     minValue={1} 
-    text={`${value * 1}%`}
+    value = {sliderValueDis}
+    text={`${sliderValueDis}%`}
     />
   );
 };

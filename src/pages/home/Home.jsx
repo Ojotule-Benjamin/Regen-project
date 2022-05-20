@@ -11,14 +11,19 @@ import ProgressBar from '../../components/progressBar/ProgressBar'
 import { red } from '@mui/material/colors'
 
 
-const Home = () => {
+const Home = (props) => {
+  //set the slider value and pass to the chart component
   const [sliderValue, setSliderValue] = useState(1);
-  //transforming the data
+  const getSliderValue = (value) => {
+    setSliderValue(value)
+  }
+  console.log(sliderValue)
 
+  //transforming the data from dummydata
   let newMonthValue = {}
   const userDataTransform = userData.map(newDataFunc)
   function newDataFunc(item){
-    const newActiveUserValue = sliderValue * item["Active User"];
+    const newActiveUserValue = sliderValue * item["Active User"] * Math.random();
     newMonthValue = { ...item, "Active User":newActiveUserValue };
     return newMonthValue
   };
@@ -27,11 +32,11 @@ const Home = () => {
         <FeaturedInfo/>
         <div className='chartContainer'>
           <div className="SliderBar">
-            <VerticalSlider onDataSet={setSliderValue}/>
+            <VerticalSlider onDataSet={getSliderValue}/>
           </div>
           <Chart data={userDataTransform} title="User Analytics" grid dataKey="Active User"/> 
           <div style={{ width: 200, height: 200, border: 10, marginTop: 70, backgroundColor: red}}>
-            <ProgressBar progressBarData={sliderValue}/>
+            <ProgressBar sliderValueDis={sliderValue}/>
           </div>
         </div>
         <div className='homeWidgets'>
