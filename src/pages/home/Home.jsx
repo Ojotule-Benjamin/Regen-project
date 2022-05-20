@@ -17,7 +17,6 @@ const Home = (props) => {
   const getSliderValue = (value) => {
     setSliderValue(value)
   }
-  console.log(sliderValue)
 
   //transforming the data from dummydata
   let newMonthValue = {}
