@@ -42,9 +42,8 @@ const Home = (props) => {
           grid 
           dataKey="Active User"/> 
 
-          <div style={{ width: 200, height: 200, border: 10, marginTop: 70,}}>
-            <ProgressBar sliderValueDis={sliderValue}/>
-          </div> 
+          <ProgressBar sliderValueDis={sliderValue}/>
+         
         </div>
         <div className='homeWidgets'>
           <WidgetSm/>
