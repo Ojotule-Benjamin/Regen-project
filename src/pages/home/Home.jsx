@@ -8,7 +8,7 @@ import WidgetSm from '../../components/widgetSm/WidgetSm'
 import VerticalSlider from '../../components/slider/VerticalSlider'
 import '../../components/slider/verticalSlider.css';
 import ProgressBar from '../../components/progressBar/ProgressBar'
-import { red } from '@mui/material/colors'
+
 
 
 const Home = (props) => {
@@ -32,11 +32,17 @@ const Home = (props) => {
     <div className='home'>
         <FeaturedInfo featuredInfoDataSlider = {valueOfSlider}/>
         <div className='chartContainer'>
-          <div className="SliderBar">
-            <VerticalSlider onDataSet={getSliderValue}/>
+          <div style={{ marginTop: 70}}>
+          <VerticalSlider onDataSet={getSliderValue}/>
           </div>
-          <Chart data={userDataTransform} title="User Analytics" grid dataKey="Active User"/> 
-          <div style={{ width: 200, height: 200, border: 10, marginTop: 70, backgroundColor: red}}>
+          
+
+          <Chart 
+          data={userDataTransform} 
+          title="User Analytics" 
+          grid dataKey="Active User"/> 
+
+          <div style={{ width: 200, height: 200, border: 10, marginTop: 70,}}>
             <ProgressBar sliderValueDis={sliderValue}/>
           </div>
         </div>
