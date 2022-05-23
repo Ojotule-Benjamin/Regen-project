@@ -6,8 +6,8 @@ import 'react-circular-progressbar/dist/styles.css';
 const ProgressBar = ({sliderValueDis}) => {
   return (
     <CircularProgressbar 
-    maxValue={100}
-    minValue={1} 
+    size={300}
+    variant="determinate"
     value = {sliderValueDis}
     text={`${sliderValueDis}%`}
     />

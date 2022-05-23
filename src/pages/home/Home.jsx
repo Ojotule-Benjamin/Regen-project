@@ -7,7 +7,7 @@ import WidgetLg from '../../components/widgetLg/WidgetLg'
 import WidgetSm from '../../components/widgetSm/WidgetSm'
 import VerticalSlider from '../../components/slider/VerticalSlider'
 import '../../components/slider/verticalSlider.css';
-//import ProgressBar from '../../components/progressBar/ProgressBar'
+import ProgressBar from '../../components/progressBar/ProgressBar'
 
 
 
@@ -42,9 +42,9 @@ const Home = (props) => {
           grid 
           dataKey="Active User"/> 
 
-          {/* <div style={{ width: 200, height: 200, border: 10, marginTop: 70,}}>
+          <div style={{ width: 200, height: 200, border: 10, marginTop: 70,}}>
             <ProgressBar sliderValueDis={sliderValue}/>
-          </div> */}
+          </div> 
         </div>
         <div className='homeWidgets'>
           <WidgetSm/>
