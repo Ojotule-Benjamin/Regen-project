@@ -7,7 +7,7 @@ import WidgetLg from '../../components/widgetLg/WidgetLg'
 import WidgetSm from '../../components/widgetSm/WidgetSm'
 import VerticalSlider from '../../components/slider/VerticalSlider'
 import '../../components/slider/verticalSlider.css';
-import ProgressBar from '../../components/progressBar/ProgressBar'
+//import ProgressBar from '../../components/progressBar/ProgressBar'
 
 
 
