@@ -42,12 +42,11 @@ const ProductList = () => {
     return (
     <div className="productList">
         <DataGrid 
-        rows={data} 
-        disableSelectionOnClick 
+        rows={data}  
         columns={columns} 
-        rowsPerPageOptions= {8} 
-        pageSize={8} 
-
+        pageSize={8}
+        rowsPerPageOptions={[8]}
+        disableSelectionOnClick 
         checkboxSelection/>
     </div>
   )
