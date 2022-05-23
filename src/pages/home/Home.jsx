@@ -17,20 +17,19 @@ const Home = (props) => {
   const getSliderValue = (value) => {
     setSliderValue(value)
   }
-  let valueOfSlider = sliderValue;
+  //let valueOfSlider = sliderValue;
 
   
   //transforming the data from dummydata
-  let newMonthValue = {}
+  //let newMonthValue = {}
   const userDataTransform = userData.map(newDataFunc)
   function newDataFunc(item){
-    const newActiveUserValue = valueOfSlider * item["Active User"] * Math.random();
-    newMonthValue = { ...item, "Active User":newActiveUserValue };
-    return newMonthValue
+    const newActiveUserValue = sliderValue * item["Active User"] * Math.random();
+    return { ...item, "Active User":newActiveUserValue };
   };
   return (
     <div className='home'>
-        <FeaturedInfo featuredInfoDataSlider = {valueOfSlider}/>
+        <FeaturedInfo featuredInfoDataSlider = {sliderValue}/>
         <div className='chartContainer'>
           <div style={{ marginTop: 70}}>
           <VerticalSlider onDataSet={getSliderValue}/>
@@ -40,7 +39,8 @@ const Home = (props) => {
           <Chart 
           data={userDataTransform} 
           title="User Analytics" 
-          grid dataKey="Active User"/> 
+          grid 
+          dataKey="Active User"/> 
 
           <div style={{ width: 200, height: 200, border: 10, marginTop: 70,}}>
             <ProgressBar sliderValueDis={sliderValue}/>
